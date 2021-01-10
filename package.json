@@ -1,5 +1,7 @@
 {
   "name": "repeale.dev",
+  "description": "Personal Website",
+  "author": "Alessio Enrico Repetti <repeale@gmail.com>",
   "version": "0.1.0",
   "private": true,
   "scripts": {
