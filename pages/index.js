@@ -1,14 +1,14 @@
 import Head from 'next/head'
 import styles from './index.module.css'
 
-const Home = ({ cv }) => (
+const Home = ({cv}) => (
   <>
     <Head>
       <meta name="description" content={cv.basics.name} />
       <title>{cv.basics.name}</title>
     </Head>
     <div className={styles.bg}>
-      <div style={{ margin: '20px' }}>
+      <div style={{margin: '20px'}}>
         <p>👋 Hello, I'm</p>
         <h1>{cv.basics.name}</h1>
         <p>{cv.basics.summary}</p>
