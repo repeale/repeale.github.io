@@ -4,7 +4,6 @@
   "author": "Alessio Enrico Repetti <repeale@gmail.com>",
   "version": "0.1.0",
   "private": true,
-  "prettier": "@repeale/prettier-config",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,12 +13,12 @@
     "export": "next export"
   },
   "dependencies": {
-    "next": "11.0.1",
+    "next": "12.0.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@repeale/prettier-config": "1.0.4",
-    "prettier": "2.3.2"
+    "@repeale/prettier-config": "1.0.6",
+    "prettier": "2.4.1"
   }
 }
