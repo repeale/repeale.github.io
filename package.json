@@ -5,24 +5,21 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": ">=16",
-    "yarn": ">=1.22.10"
+    "node": ">=22"
   },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "prestart": "npm run build",
-    "start": "next start",
-    "preexport": "npm run build",
-    "export": "next export"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "12.1.5",
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "next": "14.2.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@repeale/prettier-config": "1.0.7",
-    "prettier": "2.6.2"
+    "@repeale/prettier-config": "1.0.8",
+    "prettier": "3.3.3"
   }
 }
